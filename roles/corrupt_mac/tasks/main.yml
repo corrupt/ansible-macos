@@ -1,0 +1,6 @@
+- name: "Perform installs"
+  import_tasks: installs.yml
+
+- name: "homebrew cleanup"
+  command: brew cleanup
+  

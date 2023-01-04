@@ -1,0 +1,25 @@
+homebrew_formulae:
+- git
+- pyenv
+- zsh-completions
+- shellcheck
+- vim
+- docker-completion
+- minikube
+- mosh
+- skhd
+- zsh
+
+
+
+homebrew_casks:
+- iterm2
+- dozer
+- raycast
+- firefox
+- docker
+- alt-tab
+- betterdisplay
+- amethyst
+- karabiner-elements
+- spotify

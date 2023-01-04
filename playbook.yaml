@@ -1,0 +1,5 @@
+- name: "macOS local provisioning"
+  hosts: localhost
+  connection: local
+  roles:
+  - corrupt_mac
