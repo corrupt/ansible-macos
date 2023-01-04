@@ -7,3 +7,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $(HOME)/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew install ansible
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
